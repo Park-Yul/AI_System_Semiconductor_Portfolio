@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_rv32i_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="rv32i_pkg" />
+            <top_module name="tb_top_rv32i" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1937500fs"></ZoomStartTime>
+      <ZoomEndTime time="2030501fs"></ZoomEndTime>
+      <Cursor1Time time="2015000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="166"></NameColumnWidth>
+      <ValueColumnWidth column_width="79"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="124" />
+   <wvobject type="divider" fp_name="divider3">
+      <obj_property name="label">Conclusion</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/i_rst_n" type="logic">
+      <obj_property name="ElementShortName">i_rst_n</obj_property>
+      <obj_property name="ObjectShortName">i_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/c_state" type="array">
+      <obj_property name="ElementShortName">c_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">c_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_if_dof" type="logic">
+      <obj_property name="ElementShortName">o_en_if_dof</obj_property>
+      <obj_property name="ObjectShortName">o_en_if_dof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_dof_ex" type="logic">
+      <obj_property name="ElementShortName">o_en_dof_ex</obj_property>
+      <obj_property name="ObjectShortName">o_en_dof_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_ex_wb" type="logic">
+      <obj_property name="ElementShortName">o_en_ex_wb</obj_property>
+      <obj_property name="ObjectShortName">o_en_ex_wb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_pc_en" type="logic">
+      <obj_property name="ElementShortName">o_pc_en</obj_property>
+      <obj_property name="ObjectShortName">o_pc_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/w_pc" type="array">
+      <obj_property name="ElementShortName">w_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_pc[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/w_inst" type="array">
+      <obj_property name="ElementShortName">w_inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/U_REG_FILE/ram_file" type="array">
+      <obj_property name="ElementShortName">ram_file[1:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_file[1:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_DATA_RAM/d_ram" type="array">
+      <obj_property name="ElementShortName">d_ram[0:127][31:0]</obj_property>
+      <obj_property name="ObjectShortName">d_ram[0:127][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider39">
+      <obj_property name="label">PC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/c_state" type="array">
+      <obj_property name="ElementShortName">c_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">c_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_if_dof" type="logic">
+      <obj_property name="ElementShortName">o_en_if_dof</obj_property>
+      <obj_property name="ObjectShortName">o_en_if_dof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_dof_ex" type="logic">
+      <obj_property name="ElementShortName">o_en_dof_ex</obj_property>
+      <obj_property name="ObjectShortName">o_en_dof_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_ex_wb" type="logic">
+      <obj_property name="ElementShortName">o_en_ex_wb</obj_property>
+      <obj_property name="ObjectShortName">o_en_ex_wb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_pc_en" type="logic">
+      <obj_property name="ElementShortName">o_pc_en</obj_property>
+      <obj_property name="ObjectShortName">o_pc_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_PROGRAM_COUNTER/i_pc_branch" type="array">
+      <obj_property name="ElementShortName">i_pc_branch[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_pc_branch[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_PROGRAM_COUNTER/i_branch" type="logic">
+      <obj_property name="ElementShortName">i_branch</obj_property>
+      <obj_property name="ObjectShortName">i_branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_PROGRAM_COUNTER/i_b_taken" type="logic">
+      <obj_property name="ElementShortName">i_b_taken</obj_property>
+      <obj_property name="ObjectShortName">i_b_taken</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_PROGRAM_COUNTER/i_jump" type="logic">
+      <obj_property name="ElementShortName">i_jump</obj_property>
+      <obj_property name="ObjectShortName">i_jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_PROGRAM_COUNTER/n_pc" type="array">
+      <obj_property name="ElementShortName">n_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">n_pc[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_PROGRAM_COUNTER/o_pc" type="array">
+      <obj_property name="ElementShortName">o_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_pc[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider48">
+      <obj_property name="label">IF</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/c_state" type="array">
+      <obj_property name="ElementShortName">c_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">c_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_if_dof" type="logic">
+      <obj_property name="ElementShortName">o_en_if_dof</obj_property>
+      <obj_property name="ObjectShortName">o_en_if_dof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_dof_ex" type="logic">
+      <obj_property name="ElementShortName">o_en_dof_ex</obj_property>
+      <obj_property name="ObjectShortName">o_en_dof_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_ex_wb" type="logic">
+      <obj_property name="ElementShortName">o_en_ex_wb</obj_property>
+      <obj_property name="ObjectShortName">o_en_ex_wb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_pc_en" type="logic">
+      <obj_property name="ElementShortName">o_pc_en</obj_property>
+      <obj_property name="ObjectShortName">o_pc_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_pc_if" type="array">
+      <obj_property name="ElementShortName">w_pc_if[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_pc_if[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_inst_if" type="array">
+      <obj_property name="ElementShortName">w_inst_if[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_inst_if[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider218">
+      <obj_property name="label">DOF(Control Unit)</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/c_state" type="array">
+      <obj_property name="ElementShortName">c_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">c_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_if_dof" type="logic">
+      <obj_property name="ElementShortName">o_en_if_dof</obj_property>
+      <obj_property name="ObjectShortName">o_en_if_dof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_dof_ex" type="logic">
+      <obj_property name="ElementShortName">o_en_dof_ex</obj_property>
+      <obj_property name="ObjectShortName">o_en_dof_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_ex_wb" type="logic">
+      <obj_property name="ElementShortName">o_en_ex_wb</obj_property>
+      <obj_property name="ObjectShortName">o_en_ex_wb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_pc_en" type="logic">
+      <obj_property name="ElementShortName">o_pc_en</obj_property>
+      <obj_property name="ObjectShortName">o_pc_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_pc_dof" type="array">
+      <obj_property name="ElementShortName">w_pc_dof[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_pc_dof[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_inst_dof" type="array">
+      <obj_property name="ElementShortName">w_inst_dof[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_inst_dof[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_ra1_dof" type="array">
+      <obj_property name="ElementShortName">w_ra1_dof[4:0]</obj_property>
+      <obj_property name="ObjectShortName">w_ra1_dof[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_ra2_dof" type="array">
+      <obj_property name="ElementShortName">w_ra2_dof[4:0]</obj_property>
+      <obj_property name="ObjectShortName">w_ra2_dof[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_imm_ext_dof" type="array">
+      <obj_property name="ElementShortName">w_imm_ext_dof[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_imm_ext_dof[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_alu_srcsel_dof" type="logic">
+      <obj_property name="ElementShortName">w_alu_srcsel_dof</obj_property>
+      <obj_property name="ObjectShortName">w_alu_srcsel_dof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_alu_control_dof" type="array">
+      <obj_property name="ElementShortName">w_alu_control_dof[3:0]</obj_property>
+      <obj_property name="ObjectShortName">w_alu_control_dof[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_ram_we_dof" type="logic">
+      <obj_property name="ElementShortName">w_ram_we_dof</obj_property>
+      <obj_property name="ObjectShortName">w_ram_we_dof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_type_dof" type="array">
+      <obj_property name="ElementShortName">w_type_dof[2:0]</obj_property>
+      <obj_property name="ObjectShortName">w_type_dof[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_branch_dof" type="logic">
+      <obj_property name="ElementShortName">w_branch_dof</obj_property>
+      <obj_property name="ObjectShortName">w_branch_dof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_jump_dof" type="logic">
+      <obj_property name="ElementShortName">w_jump_dof</obj_property>
+      <obj_property name="ObjectShortName">w_jump_dof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_jalr_dof" type="logic">
+      <obj_property name="ElementShortName">w_jalr_dof</obj_property>
+      <obj_property name="ObjectShortName">w_jalr_dof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_rf_srcsel_dof" type="array">
+      <obj_property name="ElementShortName">w_rf_srcsel_dof[2:0]</obj_property>
+      <obj_property name="ObjectShortName">w_rf_srcsel_dof[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_we_dof" type="logic">
+      <obj_property name="ElementShortName">w_we_dof</obj_property>
+      <obj_property name="ObjectShortName">w_we_dof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_wa_dof" type="array">
+      <obj_property name="ElementShortName">w_wa_dof[4:0]</obj_property>
+      <obj_property name="ObjectShortName">w_wa_dof[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider245">
+      <obj_property name="label">DOF(Datapath)</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/c_state" type="array">
+      <obj_property name="ElementShortName">c_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">c_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_if_dof" type="logic">
+      <obj_property name="ElementShortName">o_en_if_dof</obj_property>
+      <obj_property name="ObjectShortName">o_en_if_dof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_dof_ex" type="logic">
+      <obj_property name="ElementShortName">o_en_dof_ex</obj_property>
+      <obj_property name="ObjectShortName">o_en_dof_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_ex_wb" type="logic">
+      <obj_property name="ElementShortName">o_en_ex_wb</obj_property>
+      <obj_property name="ObjectShortName">o_en_ex_wb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_pc_en" type="logic">
+      <obj_property name="ElementShortName">o_pc_en</obj_property>
+      <obj_property name="ObjectShortName">o_pc_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/i_ra1" type="array">
+      <obj_property name="ElementShortName">i_ra1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">i_ra1[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/i_ra2" type="array">
+      <obj_property name="ElementShortName">i_ra2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">i_ra2[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/w_imm_ext_dof" type="array">
+      <obj_property name="ElementShortName">w_imm_ext_dof[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_imm_ext_dof[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/i_alu_srcsel" type="logic">
+      <obj_property name="ElementShortName">i_alu_srcsel</obj_property>
+      <obj_property name="ObjectShortName">i_alu_srcsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/w_alu1_dof" type="array">
+      <obj_property name="ElementShortName">w_alu1_dof[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_alu1_dof[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/w_alu2_dof" type="array">
+      <obj_property name="ElementShortName">w_alu2_dof[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_alu2_dof[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider255">
+      <obj_property name="label">EX(Control Unit)</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/c_state" type="array">
+      <obj_property name="ElementShortName">c_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">c_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_if_dof" type="logic">
+      <obj_property name="ElementShortName">o_en_if_dof</obj_property>
+      <obj_property name="ObjectShortName">o_en_if_dof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_dof_ex" type="logic">
+      <obj_property name="ElementShortName">o_en_dof_ex</obj_property>
+      <obj_property name="ObjectShortName">o_en_dof_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_ex_wb" type="logic">
+      <obj_property name="ElementShortName">o_en_ex_wb</obj_property>
+      <obj_property name="ObjectShortName">o_en_ex_wb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_pc_en" type="logic">
+      <obj_property name="ElementShortName">o_pc_en</obj_property>
+      <obj_property name="ObjectShortName">o_pc_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_pc_ex" type="array">
+      <obj_property name="ElementShortName">w_pc_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_pc_ex[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_alu_control_ex" type="array">
+      <obj_property name="ElementShortName">w_alu_control_ex[3:0]</obj_property>
+      <obj_property name="ObjectShortName">w_alu_control_ex[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_ram_we_ex" type="logic">
+      <obj_property name="ElementShortName">w_ram_we_ex</obj_property>
+      <obj_property name="ObjectShortName">w_ram_we_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_type_ex" type="array">
+      <obj_property name="ElementShortName">w_type_ex[2:0]</obj_property>
+      <obj_property name="ObjectShortName">w_type_ex[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_branch_ex" type="logic">
+      <obj_property name="ElementShortName">w_branch_ex</obj_property>
+      <obj_property name="ObjectShortName">w_branch_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_jump_ex" type="logic">
+      <obj_property name="ElementShortName">w_jump_ex</obj_property>
+      <obj_property name="ObjectShortName">w_jump_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_jalr_ex" type="logic">
+      <obj_property name="ElementShortName">w_jalr_ex</obj_property>
+      <obj_property name="ObjectShortName">w_jalr_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_rf_srcsel_ex" type="array">
+      <obj_property name="ElementShortName">w_rf_srcsel_ex[2:0]</obj_property>
+      <obj_property name="ObjectShortName">w_rf_srcsel_ex[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_we_ex" type="logic">
+      <obj_property name="ElementShortName">w_we_ex</obj_property>
+      <obj_property name="ObjectShortName">w_we_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_wa_ex" type="array">
+      <obj_property name="ElementShortName">w_wa_ex[4:0]</obj_property>
+      <obj_property name="ObjectShortName">w_wa_ex[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider268">
+      <obj_property name="label">EX(Datapath)</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/c_state" type="array">
+      <obj_property name="ElementShortName">c_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">c_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_if_dof" type="logic">
+      <obj_property name="ElementShortName">o_en_if_dof</obj_property>
+      <obj_property name="ObjectShortName">o_en_if_dof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_dof_ex" type="logic">
+      <obj_property name="ElementShortName">o_en_dof_ex</obj_property>
+      <obj_property name="ObjectShortName">o_en_dof_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_ex_wb" type="logic">
+      <obj_property name="ElementShortName">o_en_ex_wb</obj_property>
+      <obj_property name="ObjectShortName">o_en_ex_wb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_pc_en" type="logic">
+      <obj_property name="ElementShortName">o_pc_en</obj_property>
+      <obj_property name="ObjectShortName">o_pc_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/w_imm_ext_ex" type="array">
+      <obj_property name="ElementShortName">w_imm_ext_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_imm_ext_ex[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/w_alu1_ex" type="array">
+      <obj_property name="ElementShortName">w_alu1_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_alu1_ex[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/w_alu2_ex" type="array">
+      <obj_property name="ElementShortName">w_alu2_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_alu2_ex[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/i_alu_control" type="array">
+      <obj_property name="ElementShortName">i_alu_control[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_alu_control[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/o_ram_wa" type="array">
+      <obj_property name="ElementShortName">o_ram_wa[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_ram_wa[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/o_ram_wd" type="array">
+      <obj_property name="ElementShortName">o_ram_wd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_ram_wd[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/i_pc_delay" type="array">
+      <obj_property name="ElementShortName">i_pc_delay[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_pc_delay[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/i_jalr" type="logic">
+      <obj_property name="ElementShortName">i_jalr</obj_property>
+      <obj_property name="ObjectShortName">i_jalr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/U_ALU/o_b_taken" type="logic">
+      <obj_property name="ElementShortName">o_b_taken</obj_property>
+      <obj_property name="ObjectShortName">o_b_taken</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/w_alu_result_ex" type="array">
+      <obj_property name="ElementShortName">w_alu_result_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_alu_result_ex[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/w_ram_rd_ex" type="array">
+      <obj_property name="ElementShortName">w_ram_rd_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_ram_rd_ex[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/w_imm_ext_ex" type="array">
+      <obj_property name="ElementShortName">w_imm_ext_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_imm_ext_ex[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/w_pc_imm_ex" type="array">
+      <obj_property name="ElementShortName">w_pc_imm_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_pc_imm_ex[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/w_pc_4_ex" type="array">
+      <obj_property name="ElementShortName">w_pc_4_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_pc_4_ex[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider281">
+      <obj_property name="label">WB(Control Unit)</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/c_state" type="array">
+      <obj_property name="ElementShortName">c_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">c_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_if_dof" type="logic">
+      <obj_property name="ElementShortName">o_en_if_dof</obj_property>
+      <obj_property name="ObjectShortName">o_en_if_dof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_dof_ex" type="logic">
+      <obj_property name="ElementShortName">o_en_dof_ex</obj_property>
+      <obj_property name="ObjectShortName">o_en_dof_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_ex_wb" type="logic">
+      <obj_property name="ElementShortName">o_en_ex_wb</obj_property>
+      <obj_property name="ObjectShortName">o_en_ex_wb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_pc_en" type="logic">
+      <obj_property name="ElementShortName">o_pc_en</obj_property>
+      <obj_property name="ObjectShortName">o_pc_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_rf_srcsel_wb" type="array">
+      <obj_property name="ElementShortName">w_rf_srcsel_wb[2:0]</obj_property>
+      <obj_property name="ObjectShortName">w_rf_srcsel_wb[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_we_wb" type="logic">
+      <obj_property name="ElementShortName">w_we_wb</obj_property>
+      <obj_property name="ObjectShortName">w_we_wb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/w_wa_wb" type="array">
+      <obj_property name="ElementShortName">w_wa_wb[4:0]</obj_property>
+      <obj_property name="ObjectShortName">w_wa_wb[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider289">
+      <obj_property name="label">WB(Datapath)</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/c_state" type="array">
+      <obj_property name="ElementShortName">c_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">c_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_if_dof" type="logic">
+      <obj_property name="ElementShortName">o_en_if_dof</obj_property>
+      <obj_property name="ObjectShortName">o_en_if_dof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_dof_ex" type="logic">
+      <obj_property name="ElementShortName">o_en_dof_ex</obj_property>
+      <obj_property name="ObjectShortName">o_en_dof_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_en_ex_wb" type="logic">
+      <obj_property name="ElementShortName">o_en_ex_wb</obj_property>
+      <obj_property name="ObjectShortName">o_en_ex_wb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_CONTROL_UNIT/U_FSM/o_pc_en" type="logic">
+      <obj_property name="ElementShortName">o_pc_en</obj_property>
+      <obj_property name="ObjectShortName">o_pc_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/w_alu_result_wb" type="array">
+      <obj_property name="ElementShortName">w_alu_result_wb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_alu_result_wb[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/w_ram_rd_wb" type="array">
+      <obj_property name="ElementShortName">w_ram_rd_wb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_ram_rd_wb[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/w_imm_ext_wb" type="array">
+      <obj_property name="ElementShortName">w_imm_ext_wb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_imm_ext_wb[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/w_pc_imm_wb" type="array">
+      <obj_property name="ElementShortName">w_pc_imm_wb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_pc_imm_wb[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/w_pc_4_wb" type="array">
+      <obj_property name="ElementShortName">w_pc_4_wb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_pc_4_wb[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/i_rf_srcsel" type="array">
+      <obj_property name="ElementShortName">i_rf_srcsel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">i_rf_srcsel[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/i_we" type="logic">
+      <obj_property name="ElementShortName">i_we</obj_property>
+      <obj_property name="ObjectShortName">i_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_rv32i/DUT/U_RV32I_CPU/U_DATAPAHT/i_wa" type="array">
+      <obj_property name="ElementShortName">i_wa[4:0]</obj_property>
+      <obj_property name="ObjectShortName">i_wa[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
