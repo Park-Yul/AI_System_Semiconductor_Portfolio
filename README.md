@@ -12,5 +12,7 @@
 <br/>
 
 ## Proectj2 - YOLO26s on Raspberry Pi 5
-[[Github] Project2-YOLO26s-on-Raspberry-Pi-5](https://github.com/Park-Yul/Project2-YOLO26s-on-Raspberry-Pi-5)
+[[Github] Project2-YOLO26s-on-Raspberry-Pi-5](https://github.com/Park-Yul/Project2-YOLO26s-on-Raspberry-Pi-5)  
 [[Tistory] project2 - YOLO26s on Raspberry Pi 5](https://hw-sw-connection.tistory.com/category/Project2%20-%20YOLO26s%20on%20Raspberry%20Pi%205)
+
+---
