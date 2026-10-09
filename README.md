@@ -11,4 +11,4 @@
 
 <br/>
 
-## Proj2 - On-Device AI
+## Proj2 - YOLO26s on Raspberry Pi 5
