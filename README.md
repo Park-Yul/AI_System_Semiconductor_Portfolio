@@ -3,7 +3,7 @@
 ## Proj1 - RISC-V RV32I CPU
 
 [[Github] RISC-V-RV32I-Project](https://github.com/Park-Yul/RISC-V-RV32I-CPU)
-  
+<br/>
 [[Velog] proj1 - RISC-V RV32I CPU](https://velog.io/@gyul_p/posts?tag=Proj1-RISC-V-RV32I)
 
 ---
