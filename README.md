@@ -1,5 +1,5 @@
 # AI_System_Semiconductor_Portfolio
-<br/><br/>
+<br/>
 ## Proj1 - RISC-V RV32I CPU
 [[Github]](https://github.com/Park-Yul/RISC-V-RV32I-Project)
 <br/>
