@@ -2,13 +2,13 @@
 
 <br/>
 
-## Proj1 - RISC-V RV32I CPU
+## Projectj1 - RISC-V RV32I CPU
 
-[[Github] RISC-V-RV32I-CPU](https://github.com/Park-Yul/RISC-V-RV32I-CPU)  
-[[Velog] &ensp;proj1 - RISC-V RV32I](https://velog.io/@gyul_p/posts?tag=Proj1-RISC-V-RV32I)
+[[Github] &ensp;RISC-V-RV32I-CPU](https://github.com/Park-Yul/RISC-V-RV32I-CPU)  
+[[Tistory] project1 - RISC-V RV32I CPU Design](https://hw-sw-connection.tistory.com/category/Project1%20-%20%20RISC-V%20RV32I%20CPU%20Design)
 
 ---  
 
 <br/>
 
-## Proj2 - YOLO26s on Raspberry Pi 5
+## Proectj2 - YOLO26s on Raspberry Pi 5
