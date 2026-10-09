@@ -4,7 +4,7 @@
 
 ## Projectj1 - RISC-V RV32I CPU Design
 
-[[Github] RISC-V-RV32I-CPU](https://github.com/Park-Yul/RISC-V-RV32I-CPU)  
+[[Github] RISC-V-RV32I-CPU](https://github.com/Park-Yul/Project1-RISC-V-RV32I-CPU-Design)  
 [[Tistory] project1 - RISC-V RV32I CPU Design](https://hw-sw-connection.tistory.com/category/Project1%20-%20%20RISC-V%20RV32I%20CPU%20Design)
 
 ---  
