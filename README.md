@@ -1,4 +1,4 @@
 # AI_System_Semiconductor_Portfolio
 ## Proj1 - RISC-V RV32I CPU
-[[Github]](https://github.com/Park-Yul/RISC-V-RV32I-Project)<br/>
-[[Velog]](https://velog.io/@gyul_p/posts?tag=Proj1-RISC-V-RV32I)
+[[Github] RISC-V-RV32I-Project](https://github.com/Park-Yul/RISC-V-RV32I-Project)<br/>
+[[Velog] proj1 - RISC-V RV32I CPU](https://velog.io/@gyul_p/posts?tag=Proj1-RISC-V-RV32I)
